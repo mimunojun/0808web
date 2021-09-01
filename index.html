@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>0808</title>
+  <title>0831</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
   <!--google fonts -->
@@ -52,6 +52,10 @@
     <div class="scroll_message">
       <p>スクロールして下へ</p>
     </div>
+    <div class="tig">
+      <p>Nu ink.</p>
+
+    </div>
   </div>  <!-- title -->
 
   <div id="concept">
@@ -73,32 +77,21 @@
     <div class="container">
       <p>かきかき</p>
     </div>
-    <div class="display_img">
-      <div class="frame">
-        <img src="img/00.jpg">
+
+    <div class="sshow_container">
+      <div class="sshow_div" id="sshow_div">
+        <img href="javascript:" onclick="slideClicked();" src="img/00.jpg" id="sshow">
+        <a href="javascript:slideLeft();" class="fas fa-chevron-circle-left slidebutton" style="left: 5%"></a>
+        <a href="javascript:slideRight();" class="fas fa-chevron-circle-right slidebutton" style="left: 95%"></a>
       </div>
-      <div class="frame">
-        <img src="img/01.jpg">
+
+      <div id="points">
+        <span class="slide-point"></span>
+
       </div>
-      <div class="frame">
-        <img src="img/02.jpeg">
-      </div>
-      <div class="frame">
-        <img src="img/03.jpeg">
-      </div>
-      <div class="frame">
-        <img src="img/04.jpg">
-      </div>
-      <div class="frame">
-        <img src="img/05.jpg">
-      </div>
-      <div class="frame">
-        <img src="img/06.jpg">
-      </div>
-      <div class="frame">
-        <img src="img/07.jpg">
-      </div>
+
     </div>
+
   </div>  <!-- content -->
 
   <div id="shoutout">
