@@ -86,7 +86,7 @@ body{
   font-weight: 900;
   font-size: 45px;
   position: absolute;
-  top: 210px;
+  top: 180px;
   right: 50px;
   letter-spacing: 0.1em;
   text-align: right;
@@ -176,7 +176,6 @@ body{
   padding: 100px 0;
   width: 80vw;
   height: calc(60vh + 260);
-  border: solid white;
   position: relative;
   text-align: center;
 }
@@ -357,7 +356,7 @@ body{
   border: var(--t-white) solid 2px;
   display: none;
   position:fixed;
-  width: 800px;
+  width: 500px;
   height: auto;
   background-color: black;
   padding: 20px;

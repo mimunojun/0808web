@@ -196,7 +196,7 @@ function triggerClicked(e){
   }
 
   if(mousePos[0] > window.innerWidth / 2){
-    div.css('left', mousePos[0] - (100 + 800));
+    div.css('left', mousePos[0] - (100 + 500));
   }else{
     div.css('left', mousePos[0] + 100);
   }
